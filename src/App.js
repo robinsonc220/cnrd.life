@@ -2,16 +2,16 @@ import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
 import 'semantic-ui-css/semantic.min.css'
-import C_LogoWhite from '/Users/ravenrosa/Desktop/Flatiron School/CNRD.LIFE/cnrd.life/src/Assets/C_LogoWhite.png';
-import Spotify  from '/Users/ravenrosa/Desktop/Flatiron School/CNRD.LIFE/cnrd.life/src/Assets/Spotify.png'
-import AppleMusic  from '/Users/ravenrosa/Desktop/Flatiron School/CNRD.LIFE/cnrd.life/src/Assets/AppleMusic.png'
-import Tidal from '/Users/ravenrosa/Desktop/Flatiron School/CNRD.LIFE/cnrd.life/src/Assets/Tidal.png'
-import SoundCloud from '/Users/ravenrosa/Desktop/Flatiron School/CNRD.LIFE/cnrd.life/src/Assets/SoundCloud.png'
-import Youtube from '/Users/ravenrosa/Desktop/Flatiron School/CNRD.LIFE/cnrd.life/src/Assets/Youtube.png'
-// import Instagram from '/Users/ravenrosa/Desktop/Flatiron School/CNRD.LIFE/cnrd.life/src/Assets/Instagram.png'
-import GooglePlay from '/Users/ravenrosa/Desktop/Flatiron School/CNRD.LIFE/cnrd.life/src/Assets/GooglePlay.png'
-import Amazon from '/Users/ravenrosa/Desktop/Flatiron School/CNRD.LIFE/cnrd.life/src/Assets/Amazon.png'
-import Deezer from '/Users/ravenrosa/Desktop/Flatiron School/CNRD.LIFE/cnrd.life/src/Assets/Deezer.png'
+import C_LogoWhite from '/Users/ravenrosa/Desktop/Flatiron School/cnrd.life/src/Assets/C_LogoWhite.png';
+import Spotify  from '/Users/ravenrosa/Desktop/Flatiron School/cnrd.life/src/Assets/Spotify.png'
+import AppleMusic  from '/Users/ravenrosa/Desktop/Flatiron School/cnrd.life/src/Assets/AppleMusic.png'
+import Tidal from '/Users/ravenrosa/Desktop/Flatiron School/cnrd.life/src/Assets/Tidal.png'
+import SoundCloud from '/Users/ravenrosa/Desktop/Flatiron School/cnrd.life/src/Assets/SoundCloud.png'
+import Youtube from '/Users/ravenrosa/Desktop/Flatiron School/cnrd.life/src/Assets/Youtube.png'
+// import Instagram from '/Users/ravenrosa/Desktop/Flatiron School/cnrd.life/src/Assets/Instagram.png'
+import GooglePlay from '/Users/ravenrosa/Desktop/Flatiron School/cnrd.life/src/Assets/GooglePlay.png'
+import Amazon from '/Users/ravenrosa/Desktop/Flatiron School/cnrd.life/src/Assets/Amazon.png'
+import Deezer from '/Users/ravenrosa/Desktop/Flatiron School/cnrd.life/src/Assets/Deezer.png'
 import { Image, Divider, Icon, Menu } from 'semantic-ui-react'
 import ReactRotatingText from 'react-rotating-text'
 
@@ -22,7 +22,7 @@ function App() {
         <Divider hidden />
         <Image src={C_LogoWhite} size='small' />
         <Divider hidden />
-        <h1> Stream <u><ReactRotatingText items={["Winners Circle", "20/20", "Rumors (feat. Grand Khai)"]}/></u> Now On ALL Platforms </h1>
+        <h1> Stream <u><ReactRotatingText items={["Winners Circle", "Rumors (feat. Grand Khai)", "20/20", "Dear Sage" ]}/></u> Now On ALL Platforms </h1>
         <Divider hidden />
         <center>
           <Image className="hvr-float-shadow" src={Spotify}  href='https://open.spotify.com/artist/1rVLg9qEelSud7Qs9uMHYU?si=RU0vtR_CSAObNGxXnpgDlA' target="_blank"/> 
